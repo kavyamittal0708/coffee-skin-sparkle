@@ -247,16 +247,16 @@ function Landing() {
                 src={faceWash}
                 alt="mCaffeine Coffee Face Wash tube"
                 loading="lazy"
-                width={900}
-                height={1100}
+                width={912}
+                height={1104}
                 className="h-full w-full rounded-[1.75rem] object-cover shadow-[var(--shadow-card)]"
               />
               <img
                 src={bodyScrub}
                 alt="mCaffeine Coffee Body Scrub jar"
                 loading="lazy"
-                width={900}
-                height={1100}
+                width={912}
+                height={1104}
                 className="mt-10 h-full w-full rounded-[1.75rem] object-cover shadow-[var(--shadow-card)]"
               />
             </Reveal>
