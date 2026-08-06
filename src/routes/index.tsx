@@ -326,7 +326,7 @@ function Landing() {
                 <Reveal as="li" key={b.label} delay={i * 80}>
                   <div className="flex h-full items-center justify-center gap-2 rounded-full border border-border bg-secondary px-4 py-3 text-sm text-secondary-foreground">
                     <b.icon size={16} className="shrink-0 text-accent" />
-                    <span className="truncate">{b.label}</span>
+                    <span className="text-center">{b.label}</span>
                   </div>
                 </Reveal>
               ))}
