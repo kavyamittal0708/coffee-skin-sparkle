@@ -22,6 +22,7 @@ import { Reveal } from "@/components/Reveal";
 import heroDuo from "@/assets/hero-duo.jpg";
 import faceWash from "@/assets/face-wash.jpg";
 import bodyScrub from "@/assets/body-scrub.jpg";
+import productAd from "@/assets/product-ad.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
