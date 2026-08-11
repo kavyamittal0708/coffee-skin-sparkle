@@ -263,6 +263,38 @@ function Landing() {
           </div>
         </section>
 
+        {/* Video ad */}
+        <section className="px-5 pb-4 md:pb-8">
+          <div className="mx-auto max-w-5xl">
+            <Reveal>
+              <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-semibold text-primary sm:text-4xl">
+                See It In Action
+              </h2>
+              <p className="mx-auto mt-4 max-w-2xl text-center leading-relaxed text-muted-foreground">
+                A closer look at the Coffee Face Wash and Coffee Body Scrub — texture, ritual, and
+                the glow that follows.
+              </p>
+            </Reveal>
+            <Reveal delay={120}>
+              <div className="mt-10 overflow-hidden rounded-[2rem] bg-card shadow-[var(--shadow-soft)]">
+                <video
+                  src={productAd.url}
+                  poster={heroDuo}
+                  controls
+                  playsInline
+                  muted
+                  loop
+                  preload="metadata"
+                  aria-label="mCaffeine Coffee Face Wash and Coffee Body Scrub product video"
+                  className="aspect-video w-full object-cover"
+                />
+              </div>
+            </Reveal>
+          </div>
+        </section>
+
+
+
         {/* Benefits */}
         <section className="bg-cream py-20 md:py-28">
           <div className="mx-auto max-w-6xl px-5">
